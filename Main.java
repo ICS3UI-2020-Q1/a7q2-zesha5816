@@ -6,10 +6,10 @@ public class Main {
 /**creates a procedure which devides the factor number by the increasing increment of i until it reaches back to its origial number and prints out 
 */ 
 	public static int factors(int factor){
-		for(int i = 1; i < factor; i++){
+		for(int i = 1; i <= factor; i++){
 			if(factor%i == 0){
 				System.out.println(i);
-			}else{}
+			}
 		}
 		return factor;
 	}
